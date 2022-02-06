@@ -1,0 +1,345 @@
+html{
+    font-family: 'MuseoModerno', cursive;
+    min-width: 620px;
+}
+
+.body{
+    min-width: 620px;
+}
+
+.first-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu i{
+        display: none;
+       
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+         
+.center{
+    
+    margin-left: -15px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 700;
+    
+}
+img{
+    margin-right: -10px;
+}
+
+
+        .registrar{
+            background-color: rgb(145, 32, 32);
+            border-radius: 40%;
+            
+            a{
+                color: white;
+            }
+        }
+        li{
+            padding: 13px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+.contenedor{
+    margin-right: 150px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.hide-menu{
+    background-color: black;
+    margin-top: -20px;
+    height: 460px;
+   transition: height 3s ease-in;
+   
+    ul li{
+        list-style: none;
+        padding: 15px 10px;
+        margin-left: 69px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.oculto{
+    display: none;
+    transition: height 1s ease-in;
+}
+
+
+.row .col .m12 .slider .slides li .caption p{
+    color: red;
+}
+
+.hide{
+    transition: all 3s ease;
+}
+
+.third-flex{
+    display: flex;
+    .panel{
+        background-color: red;
+        
+        flex: 1 0 30%;
+
+      
+
+        ul li a:hover{
+            color: white;
+        }
+        ul {
+            li{
+                padding: 20px 10px;
+   
+               i{
+                   font-size: 20px;
+                   margin-left: 20px;
+                   margin-right: 20px;
+               }
+       
+               a{
+                   text-decoration: none;
+                   color: rgb(189, 182, 182);
+                   font-size: 20px;
+               }
+           }
+        }
+        .color a{
+            color: white;
+        }
+      
+     
+    }
+    .contenido{
+        flex: 1 0 50%;
+        ul li {
+            margin-left: 30px;
+            padding: 10px 20px;
+        }
+        
+        i{
+            color: red;
+            font-size: 50px;
+        }
+        
+        a{
+            color: gray;
+        }
+    }
+   
+}
+
+
+.hero{
+    background-image: url(img/toyota5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    ul li{
+        background-color: white;
+        width: 500px;
+        opacity: .7;
+        margin-bottom: -29px;
+        height: 155px;
+        margin-left: 0px;
+        transition: all 1s ease;
+        background-attachment: fixed;
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+            h3{
+                opacity: 1;
+                color: red;
+                padding: 0px 10px;
+                
+            }
+            p{
+                font-size: 17px;
+                padding: 0px 10px;
+            }
+        }
+       
+    }
+    ul li:hover{
+        transition: all .3s ease;
+      margin-left: 70px;
+      
+      
+     }
+}
+
+.mover ul li{
+    margin-right: -30px;
+    transition: all 3s ease;
+}
+
+
+.informacion{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    h6{
+        margin-top: 70px;
+        color: red;
+    }
+    p{
+        margin-top: 30px;
+        opacity: .5;
+    }
+
+    .crecer{
+       height: 700px;
+       background-color: red;
+    }
+}
+
+.forth-flex{
+    display: flex;
+    margin-top: 90px;
+    .locacion{
+        flex: 0 1 calc(50% - 40px);
+        img{
+            width: 570px;
+            margin-left: 20px;
+            height: 380px;
+            
+            
+        }
+    }
+
+    .formulario{
+        flex: 1 0 calc(50% - -0px);
+        margin-right: 30px ;
+    }
+}
+
+.card-panel{
+    background-image: url(img/toyota4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    ul li{
+        color: gray;
+        padding: 10px;
+       
+        h5{
+            color: white;
+            opacity: 1;
+        }
+i{
+    font-size: 20px;
+    margin: 20px;
+}
+
+    } a{
+        color: white;
+    }
+
+    span{
+        color: black;
+    }
+
+}
+@media only screen and(max-width:1100px){
+    .first-flex{
+        background-color: black;
+        height: 70px;
+        justify-content: space-around;
+        ul li a{
+            color: white;
+            margin-left: -40px;
+            img{
+                margin-left: -90px;
+            }
+        
+        }
+        .menu i{
+           margin-right: 20px;
+           display: block;
+        }
+        .ocultar{
+            display: none;
+           
+        }
+        #boton{
+            margin-right: -60px;
+            color: gray;
+        }
+    }
+    .oculto{
+        display: block;
+        
+        transition: all 1s ease-in;
+        height: 0px;
+        .lado{
+            margin-left: -160px;
+            transition: all 1s ease;
+        }
+    }
+
+    .contenedor{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hide-menu{
+        display: block;
+        transition: height 1s ease-in;
+        
+       
+    }
+
+
+.hero{
+    ul li{
+        margin-left: 0px;
+    }
+
+    ul li:hover{
+        transition: all .3s ease;
+      margin-left: 70px;
+      
+     }
+}
+
+.forth-flex{
+    flex-direction: column;
+    .locacion{
+        order: 2;
+        img{
+            width: 100%;
+        }
+    }
+    .formulario{
+        order: 0;
+    }
+}
+
+  .five-flex{
+      flex-direction: column;
+      text-align: center;
+  }
+
+
+}
